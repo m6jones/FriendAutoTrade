@@ -1,0 +1,35 @@
+## Title: Friend Auto Trade
+## Description: Friend Auto Trade Version - 0.1
+## APIVersion: 100011
+## OptionalDependsOn: LibAddonMenu-2.0
+## SavedVariables: FriendAutoTradeVars
+
+Libs\LibStub\LibStub.lua
+Libs\LibAddonMenu-2.0\LibAddonMenu-2.0.lua
+Libs\LibAddonMenu-2.0\controls\panel.lua
+Libs\LibAddonMenu-2.0\controls\submenu.lua
+Libs\LibAddonMenu-2.0\controls\button.lua
+Libs\LibAddonMenu-2.0\controls\checkbox.lua
+Libs\LibAddonMenu-2.0\controls\colorpicker.lua
+Libs\LibAddonMenu-2.0\controls\custom.lua
+Libs\LibAddonMenu-2.0\controls\description.lua
+Libs\LibAddonMenu-2.0\controls\dropdown.lua
+Libs\LibAddonMenu-2.0\controls\editbox.lua
+Libs\LibAddonMenu-2.0\controls\header.lua
+Libs\LibAddonMenu-2.0\controls\slider.lua
+Libs\LibAddonMenu-2.0\controls\texture.lua
+Libs\LibAddonMenu-2.0\controls\iconpicker.lua
+
+
+Core\FATGlobals.lua
+Core\FATItem.lua
+Core\ItemCategories\FATItemProvisioning.lua
+Core\ItemCategories\FATItemClothier.lua
+Core\ItemCategories\FATItemBlacksmithing.lua
+Core\ItemCategories\FATItemWoodworking.lua
+Core\ItemCategories\FATItemAlchemy.lua
+Core\ItemCategories\FATItemEnchanting.lua
+Core\ItemCategories\FATItemMisc.lua
+Core\FATSettingsMenu.lua
+Core\FATTrading.lua
+Core\FriendAutoTrade.lua
